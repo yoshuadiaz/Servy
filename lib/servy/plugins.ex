@@ -1,5 +1,6 @@
 defmodule Servy.Plugins do
   alias Servy.Conv
+  
   def emojify(%Conv{status: 200} = conv) do
     response = "🤩🤩🤩🤩🤩 : " <> conv.resp_body
     %{conv | resp_body: response}

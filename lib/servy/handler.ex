@@ -202,7 +202,7 @@ Accept: */*
 Content-Type: application/x-www-form-urlencoded
 Content-Length: 21
 
-name=ElCacas&type=Brown
+name=ElWuawuaras&type=Brown
 """
 
 response = Servy.Handler.handle(request)
